@@ -17,3 +17,39 @@ Skips files if a file with the same name already exists in the destination folde
 Includes a dry-run option to preview changes without moving files.
 
 Uses Python's built-in libraries.
+
+
+How to Run
+
+1. Clone the repository
+
+git clone https://github.com/YOUR-USERNAME/automatic-file-organizer.git
+
+2. Navigate to the project folder
+
+cd automatic-file-organizer
+
+3. Run the program
+
+python organizer.py "C:/Users/YourName/Downloads"
+
+Replace the example folder path with the folder you want to organize.
+
+
+Preview Changes (Dry Run)
+
+To see which files would be moved without actually moving them, use:
+
+python organizer.py "C:/Users/YourName/Downloads" --dry-run
+
+This displays the planned changes without modifying the folder.
+
+📌 Example Output
+
+photo.jpg -> Images/
+report.pdf -> Documents/
+song.mp3 -> Audio/
+project.py -> Code/
+movie.mp4 -> Videos/
+
+Moved 5 file(s).
