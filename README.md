@@ -1,10 +1,10 @@
-Automatic File Organizer 📁
+# Automatic File Organizer 
 
 A simple Python command-line application that automatically organizes files into separate folders based on their file extensions.
 
 It helps keep folders clean and organized by sorting files into categories such as Images, Documents, Videos, Audio, Archives, and Code.
 
-✨ Features
+# Features
 
 Automatically organizes files by file type.
 
@@ -19,7 +19,7 @@ Includes a dry-run option to preview changes without moving files.
 Uses Python's built-in libraries.
 
 
-How to Run
+# How to Run
 
 1. Clone the repository
 
