@@ -4,7 +4,7 @@ A simple Python command-line application that automatically organizes files into
 
 It helps keep folders clean and organized by sorting files into categories such as Images, Documents, Videos, Audio, Archives, and Code.
 
-# Features
+## Features
 
 Automatically organizes files by file type.
 
@@ -19,7 +19,7 @@ Includes a dry-run option to preview changes without moving files.
 Uses Python's built-in libraries.
 
 
-# How to Run
+## How to Run
 
 1. Clone the repository
 
@@ -36,7 +36,7 @@ python organizer.py "C:/Users/YourName/Downloads"
 Replace the example folder path with the folder you want to organize.
 
 
-Preview Changes (Dry Run)
+##Preview Changes (Dry Run)
 
 To see which files would be moved without actually moving them, use:
 
@@ -44,7 +44,7 @@ python organizer.py "C:/Users/YourName/Downloads" --dry-run
 
 This displays the planned changes without modifying the folder.
 
-📌 Example Output
+## Example Output
 
 photo.jpg -> Images/
 report.pdf -> Documents/
