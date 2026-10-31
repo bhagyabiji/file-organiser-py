@@ -22,16 +22,10 @@ Uses Python's built-in libraries.
 ## How to Run
 
 1. Clone the repository
-
-git clone https://github.com/YOUR-USERNAME/automatic-file-organizer.git
-
 2. Navigate to the project folder
-
-cd automatic-file-organizer
-
 3. Run the program
 
-python organizer.py "C:/Users/YourName/Downloads"
+python organizer.py 
 
 Replace the example folder path with the folder you want to organize.
 
